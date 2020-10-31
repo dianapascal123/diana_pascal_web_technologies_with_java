@@ -25,7 +25,7 @@ public class Application {
 
         System.out.println("Borrowing same book again\n");
         //comment this line to see the error occurring when trying to borrow a book that is not available
-//        bookService.returnBook("9781524721254");
+        bookService.returnBook("9781524721254");
         bookService.borrowBook("9781524721254", "Diana", "Pascal");
 
         bookService.removeBook("9781524721254");
